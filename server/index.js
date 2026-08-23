@@ -16,7 +16,16 @@ app.use((req, _res, next) => {
   console.log(`${new Date().toISOString()}  ${req.method} ${req.path}`);
   next();
 });
+app.get('/', (_req, res) => {
+  res.json({
+    message: 'Plinth API is running',
+    status: 'success'
+  });
+});
 
+app.get('/api/health', (_req, res) =>
+  res.json({ ok: true, service: 'plinth-server' })
+);
 app.get('/api/health', (_req, res) => res.json({ ok: true, service: 'plinth-server' }));
 
 app.use('/api/projects', projectsRouter);
@@ -30,5 +39,5 @@ app.use((err, _req, res, _next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Plinth API listening on http://localhost:${PORT}`);
+  console.log(`Plinth API listening onhttps://plinth-interior-design-4.onrender.com`);
 });
