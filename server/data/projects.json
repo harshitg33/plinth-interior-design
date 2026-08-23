@@ -1,0 +1,8 @@
+[
+  { "id": "p1", "title": "A living room in Model Town", "room": "Living room", "city": "Ludhiana", "style": "Warm minimal" },
+  { "id": "p2", "title": "A kitchen rebuilt around one window", "room": "Kitchen", "city": "Amritsar", "style": "Farmhouse" },
+  { "id": "p3", "title": "A study that used to be a passage", "room": "Study", "city": "Chandigarh", "style": "Dark academia" },
+  { "id": "p4", "title": "A bedroom for two very different sleepers", "room": "Bedroom", "city": "Ludhiana", "style": "Soft modern" },
+  { "id": "p5", "title": "A verandah, closed in for winter", "room": "Verandah", "city": "Jalandhar", "style": "Plant-heavy" },
+  { "id": "p6", "title": "A dining corner carved out of a hallway", "room": "Dining", "city": "Patiala", "style": "Warm minimal" }
+]
